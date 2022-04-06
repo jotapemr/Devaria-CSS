@@ -1,6 +1,6 @@
 /*ESTILOS DO HEADER*/
 
-header .link-logo {
+header .linklogo {
     display: block;
     padding: 20px 25px;
     border-bottom: 1px solid #25cbd3;
@@ -25,7 +25,7 @@ header nav ul li:not(:last-child) {
 }
 
 .menu li a:hover {
-    color: #3bd42d;
+    color: #1babcf;
     text-decoration: underline;
 }
 
