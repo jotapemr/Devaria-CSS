@@ -1,2 +1,28 @@
-/*ESTILOS DA PÁGINA INDEX*/
+/*ESTILOS PÁGINA INDEX*/
 
+
+
+.cover-container figure img {
+    width: 100%;
+}
+
+main h3.title {
+    font-size: 1.2em;
+}
+
+main section abbr {
+    color: #25cbd3;
+}
+
+@media screen and (min-width: 992px) {
+    .cover-container {
+        width: 40%;
+    }
+
+     main .sectazure blockquote {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}

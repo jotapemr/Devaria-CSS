@@ -1,1 +1,18 @@
-/*ESTILOS DO RADAPÉ*/
+/*ESTILOS RADAPÉ*/
+
+footer {
+    text-align: center;
+    border-top: 1px solid #00ffc8;
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+    text-transform: lowercase;
+}
+
+footer section span:first-child {
+    color: #00f8d7;
+}
+
+footer section span:last-child {
+    color: #04b7e4;
+}

@@ -1,0 +1,19 @@
+.contentcontainer {
+    padding: 20px;
+}
+
+.contentcontainer h2.title {
+    font-size: 1.5em;
+}
+
+.contentcontainer > div img {
+    width: 98%;
+    border-radius: 20px;
+    border: 5px double;
+}
+
+@media screen and (min-width: 992px) {
+    .contentcontainer article p {
+        margin: 0 auto 10px;
+    }
+}

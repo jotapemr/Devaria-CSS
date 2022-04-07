@@ -1,0 +1,88 @@
+.sub-title {
+    margin: 0 20px;
+}
+
+main .contactform > div {
+    margin: 15px 0px;
+}
+
+main .contactform > div label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+main .contactform input,
+main .contactform select,
+main .contactform textarea {
+    width: 90%;
+    padding: 5px 15px;
+    outline-color: #3bd42d;
+}
+
+main .contacform select {
+    width: 100%;
+}
+
+main .contactform textarea {
+    resize: none;
+    padding-top: 15px;
+}
+
+main .contactform > div input[type="radio"],
+main .contactform > div input[type="checkbox"] {
+    width: 25px;
+}
+
+main .contactform > div:nth-child(4) span {
+    color: #25cbd3;
+}
+
+main .contactform > div input[type="submit"],
+main .contactform > div input[type="reset"] {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
+
+main .contactform > div input[type="submit"] {
+    background-color: #3bd42d;
+    padding: 10px;
+    font-weight: bold;
+}
+
+main .contactform > div input[type="reset"] {
+    background-color: #5e49ff;
+}
+
+@media screen and (min-width: 992px) {
+    main .contactform {
+        width: 60%;
+        border: 1px solid #25cbd3;
+        border-radius: 20px;
+        padding: 25px;
+        margin: 25px auto;
+    }
+
+    main .contactform input,
+    main .contactform textarea {
+        width: 95%;
+    }
+
+    main .contactform select {
+        width: 40%;
+    }
+
+    main .contactform > div input[type="submit"],
+    main .contactform > div input[type="reset"] {
+        width: auto;
+        padding: 10px;
+        outline: none;
+    }
+
+    main .contactform > div input[type="submit"] {
+        margin-right: 20px;
+    }
+}

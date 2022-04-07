@@ -5,7 +5,13 @@
         <title>Fale Conosco</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="public/css/styleglobal.css"/>
+        <link rel="stylesheet" href="public/css/devaria.css"/>
+        <link rel="stylesheet" href="public/css/footer.css"/>
         <link rel="stylesheet" href="public/css/header.css"/>
+        <link rel="stylesheet" href="public/css/profs.css"/>
+        <link rel="stylesheet" href="public/css/faleconosco.css"/>
+        <link rel="stylesheet" href="public/css/devaria.css" />
+       
     </head>
     <body>
         <header>
@@ -23,49 +29,49 @@
             </nav>
         </header>
         <main>
-            <h1>Fale conosco através daqui.</h1>
-            <h2>Para entrar em contato preencha os campos abaixo</h2>
-            <form action="index.html">
-                <p>
+            <h1 class="title textcenter">Fale com a devaria através dessa página</h1>
+            <h2 class="subtitle textcenter">Para entrar em contato preencha os campos abaixo e clique em enviar</h2>
+            <form action="index.html" class="contactform marginhorizontal20px">
+                <div>
                     <label>Nome:</label>
-                    <input type="text" name="Nome" maxlength="70"/>
-                </p>
-                <p>
+                    <input type="text" name="Nome" maxlength="70" required="true" />
+                </div>
+                <div>
                     <label>E-mail:</label>
-                    <input type="text" name="Email" maxlength="150"/>
-                </p>
-                <p>
+                    <input type="text" name="Email" maxlength="150" required="true" />
+                </div>
+                <div>
                     <label>Comentários:</label>
-                    <textarea name="Comentario" cols="50" rows="4"></textarea>
-                </p>
-                <p>
+                    <textarea name="Comentario" cols="50" rows="4" required="true"></textarea>
+                </div>
+                <div>
                     <label>Sexo:</label>
-                    <input type="radio" name="Sexo" /><span>Feminino</span>         <!--usar o mesmo nome pra não poder marcar os 2-->
+                    <input type="radio" name="Sexo" /><span>Feminino</span>
                     <input type="radio" name="Sexo" /><span>Masculino</span>
-                </p>
-                <p>
-                    <label>Aonde nos conheceu?</label>
+                </div>
+                <div>
+                    <label>Aonde você conheceu a Devaria?</label>
                     <select name="Conheceu">
-                        <option selected>Youtube</option>
+                        <option>Youtube</option>
                         <option>Amigos</option>
-                        <option>Google</option>
+                        <option selected>Google</option>
                         <option>Outros</option>
                     </select>
-                </p>
-                <p>
-                    <input type="checkbox" name="Aceite"/>
-                    <span>Aceito receber novidades</span>
-                </p>
-                <p>
-                    <input type="submit" name="Enviar" value="Enviar"/>
-                    <input type="reset" name="Limpar" value="Limpar"/>
-                </p>       
+                </div>
+                <div>
+                    <input type="checkbox" name="Aceite" />
+                    <span>Aceito receber novidades da Devaria</span>
+                </div>
+                <div>
+                    <input type="submit" name="Enviar" value="Enviar" />
+                    <input type="reset" name="Limpar" value="Limpar" />
+                </div>
             </form>
         </main>
         <footer>
             <section>
-                <span>contato@devaria.com.br</span> <br/>
-                <span>Conheça o canal do youtube</span>
+                <span>contato@devaria.com.br</span> <br />
+                <span>Conheça o nosso canal do Youtube!</span>
             </section>
         </footer>
     </body>
